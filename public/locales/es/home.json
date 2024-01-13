@@ -1,0 +1,6 @@
+{
+    "description": "esto es un ejemplo {{name}}",
+    "person": {
+        "age": "12"
+    }
+}

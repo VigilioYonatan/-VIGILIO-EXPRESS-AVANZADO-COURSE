@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include("../components/webHead.ejs")  %>
+</head>
+
+<body class="bg-black bg-opacity-70">
+  <%- include("../components/webHeader.ejs")  %>
+
+  <h1 class="text-3xl font-bold uppercase">Productos 2</h1>
+  <products-limit-slider class="max-w-6xl mx-auto" :products="<%= JSON.stringify(showCustomProducts)  %>">
+
+  </products-limit-slider>
+
+
+</html>
